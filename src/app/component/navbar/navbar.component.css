@@ -1,0 +1,18 @@
+.navbar{
+    background: black;
+    
+}
+.navbar h2{
+    color: white;
+    font-family: monospace;
+    font-weight: bolder;
+}
+.menu-left{
+    margin-left: 80%;
+    font-weight: bolder;
+    font-size: x-large;
+}
+.menu-left li a{
+    color: white;
+}
+

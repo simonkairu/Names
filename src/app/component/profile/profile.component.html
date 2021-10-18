@@ -1,0 +1,74 @@
+<main>
+  <div class="container">
+    <h1 class="text-center">Git Search..</h1>
+    <hr>
+    <div class="text-center">
+      <h1 style=" margin-bottom:3%; margin-top: 3%;">User Profile</h1>
+    </div>
+    
+    <div class="row">
+      <div class="col-md-5 text-center ">
+        
+        <div class="now">
+
+        
+        <div id="user_profile "> <img src="{{usr.avatar_url}}" alt=""></div>
+        <div class="userInfo">
+          <p class="uname">{{usr.login}}</p>
+          <p>{{usr.bio}}</p>
+          <p>Signedup on : {{usr.created_at| date}}</p>
+          <p>Location: {{usr.location}}</p>
+          <div class="d-flex justify-content-start">
+            Following:<div class="f1 following">{{usr.following}}</div>
+            Followers:<div class="f1">{{usr.followers}}</div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div>
+        <div>
+          <form style="margin-top: 50px">
+            <div class="form-group d-flex">
+              <input type="text" id="username" name="username" #username class="form-control"
+                placeholder="Search GitHub user" style="margin-bottom: 10px; margin-top: 10px">
+              <nav class="navbar navbar-light bg-light justify-content-between">
+                <form class="form-inline">
+                  <button type="submit" (click)="search(username.value)" id="search"
+                    class="btn btn-outline-primary my-2 my-sm-0"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                      height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                      <path
+                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                    </svg></button>
+                </form>
+              </nav>
+            </div>
+          </form>
+        </div>
+        <div class="box ">
+         
+          <div class="repoLabel text-center ">
+            <h3 style="color:black">Repositories</h3>
+          </div>
+
+          <div class="d-flex justify-content-center flex-wrap">
+            <div class="card" *ngFor="let repo of repos; index as i">
+              <h4 style="color:black">{{ repo.name }} <i *ngIf="repo.fork" class="fas fa-code-branch fa-xs"></i> <span
+                style="font-size:12px; float:right; color:white; background-color: black"
+                class="badge">{{ repo.language }}</span></h4>
+                <p>{{ repo.description }}</p>
+                <div class="d-flex justify-content-between">
+    
+                  <a href="{{ repo.html_url }}" target="_blank">
+                    <button appOnhover style="color: white; background-color:black" class="btn btn-info">View on GitHub <i
+                        class="fab fa-github"></i></button>
+                  </a>
+                  <small style="margin-top: 6%"><span class="text-muted">Last modified:</span> {{ repo.updated_at| date}}</small>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+

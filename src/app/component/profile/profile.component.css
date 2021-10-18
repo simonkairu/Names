@@ -1,0 +1,94 @@
+ *{
+  
+   box-sizing: border-box;
+
+ }
+ 
+ form{
+   margin-left: 30%;
+ }
+ #username {
+   border-color: black;
+   margin-bottom: 10px; 
+   margin-top: 10px;
+   width: 500px;
+   
+ }
+
+ #user_profile {
+   width: 80%;
+   height: auto;
+   border-radius: 50%;
+
+ }
+
+ #user_profile img {
+   width: 100%;
+   height: 100%;
+   border-radius: 50%;
+ }
+
+ .following {
+   margin-right: 10%;
+ }
+
+ .followersnumbers {
+   padding-left: 2%;
+   color: rgb(173, 0, 0);
+ }
+
+ .repoLabel {
+   margin-top: 6%;
+ }
+
+ .userInfo {
+   font-size: 18px;
+   font-weight: 500;
+   margin-top: 10%;
+   color:black;
+
+ }
+
+ .uname {
+   color: black;
+   font-weight: 700;
+   font-size: 30px;
+ }
+
+
+ .repoLabel h3{
+   color:white;
+ }
+
+ .now{
+   width: 50%;
+ }
+
+ .repocards {
+   background: black;
+ }
+ 
+
+.repocards h4 span{
+  font-size:12px; 
+  float:right; 
+  color:white;
+  
+ 
+}
+
+.gitclick{
+  color: white;
+  
+}
+
+.card{
+  background: rgba(255, 255, 255, 0.575);
+  width: 500px;
+  margin: 10px;
+  padding: 20px 10px;
+}
+
+.now{
+  margin-left: 80%;
+}
