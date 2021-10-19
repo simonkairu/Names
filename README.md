@@ -39,6 +39,8 @@ Incase of any support or any idea on how the site can be improved kindly email  
 
 ### THIS FILE IS UNDER [MIT](LICENSE) LICENSE
 
+Copyright (c) {2021} Simon Kairu
+
 
 
 
