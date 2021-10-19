@@ -32,6 +32,9 @@ There are currently no known bugs contact incase you get any
 
 7 Typescript
 
+## Support and contact details
+Incase of any support or any idea on how the site can be improved kindly email  simonkairu14@gmail.com or call 0702027760
+
 
 
 
