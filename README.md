@@ -35,7 +35,7 @@ There are currently no known bugs contact incase you get any
 ## Support and contact details
 Incase of any support or any idea on how the site can be improved kindly email  simonkairu14@gmail.com or call 0702027760
 
-### [live link](https://simonkairu.github.io/Akan-Names/)
+### [live link](https://simonkairu.github.io/Names/)
 
 
 
