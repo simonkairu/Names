@@ -37,6 +37,9 @@ Incase of any support or any idea on how the site can be improved kindly email  
 
 ### [live link](https://simonkairu.github.io/Names/)
 
+### THIS FILE IS UNDER [MIT](LICENSE) LICENSE
+
+
 
 
 
