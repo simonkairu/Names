@@ -18,6 +18,20 @@ You can then run it using any code editor that you like
 ## Known Bugs
 There are currently no known bugs contact incase you get any
 
+## Technologies Used
+1 HTML
+2 CSS 
+
+3 Bootstrap
+
+4 javascript
+
+5 Git
+
+6 Angular cli
+
+7 Typescript
+
 
 
 
